@@ -1,0 +1,65 @@
+    html, body { height: 100%; width: 100%; margin: 0; padding: 0; }
+     #map{ margin: 0; padding: 0; }
+     .esriPopup a:hover, a:active {
+     text-decoration: underline;
+    }
+    .esriPopup a, a:visited {
+    text-decoration: none;
+    }
+    .esriPopup a, a:visited {
+    text-decoration: none;
+    }
+    .esriPopup a, a:hover, a:active, a:visited {
+    color: #21759B;
+    }
+    #BasemapToggleBox {
+      position: absolute;
+      top: 85px;
+      left: 17px;
+      z-index: 1;
+      /*background-color: red;*/
+    }
+    .claro .dijitToggleButton .dijitButtonNode {
+      -moz-user-select: none;
+      background-color: rgba(102, 102, 102, 0.8);
+      background-image: url("./images/Ortho.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-radius: 5px;
+      cursor: pointer;
+      height: 30px;
+      padding: 0px;
+      width: 30px;
+    }
+    .dijitButtonNode2 {
+      -moz-user-select: none;
+      background-color: rgba(102, 102, 102, 0.8);
+      background-image: url("./images/Topo.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-radius: 5px;
+      cursor: pointer;
+      height: 30px;
+      padding: 0px;
+      width: 30px;
+    }
+    .claro  .dijitTooltipConnector { background:none !important; /*remove the > marker*/ }
+    #search {
+      display: block;
+      position: absolute;
+      z-index: 1;
+      top: 20px;
+      left: 70px;
+    }
+    #HomeButton {
+      position: absolute;
+      top: 125px;
+      left: 20px;
+      z-index: 1;
+    }
+    #LocateButton {
+      position: absolute;
+      top: 165px;
+      left: 20px;
+      z-index: 1;
+    }
