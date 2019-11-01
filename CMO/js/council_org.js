@@ -130,6 +130,9 @@
         //Run query for popup on map click
         app.map.on("click", executeClick);
 
+        gcxAnalytics.configMap(app.map);  //Give map details to Geocortex Analytics
+        //console.error(gcxAnalytics);
+
         //ZOOMING TO SELECTED DISTRICT
           //use URL paramet to update variables & run query
           if(window.location != null && window.location.search.length > 1 )
