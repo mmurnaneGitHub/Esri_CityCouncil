@@ -7,7 +7,7 @@
          if (element == 'Search') {
            document.getElementById('search_input').value = '747 Market St'; //places text in input box
            document.getElementById("search_input").focus(); //set focus first
-           console.error('MANUAL TEST 1: NEED TO HIT ENTER TO COMPLETE GEOCODING!');
+           console.error('MANUAL TEST 1: NEED TO ADD A SPACE & HIT ENTER TO COMPLETE GEOCODING!');
            setTimeout(simulateMapEvents, 4000); //Leave enough time to see the popup before closing
          } else {
            element.click(); //Simulate mouse click on element
