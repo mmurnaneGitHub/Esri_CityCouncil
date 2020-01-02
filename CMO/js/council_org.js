@@ -221,7 +221,7 @@ require([
         "<br><br><b>At-Large Councilmembers</b>" +
         "<br><a href='https://www.cityoftacoma.org/cms/One.aspx?portalId=169&pageId=70230' target='_blank'>Lillian Hunter, Position 6</a>" +
         "<br><a href='https://www.cityoftacoma.org/cms/One.aspx?portalId=169&pageId=95002' target='_blank'>Deputy Mayor Conor McCarthy, Position 7</a>" +
-        "<br><a href='https://www.cityoftacoma.org/cms/One.aspx?portalId=169&pageId=92937' target='_blank'>Ryan Mello, Position 8</a>" +
+        "<br><a href='https://www.cityoftacoma.org/cms/One.aspx?portalId=169&pageId=92937' target='_blank'>Kristina Walker, Position 8</a>" +
 
         "<br><br><b>Support Staff</b>" +
         "<br>" + item1[0].attributes.Councilm_4 +
